@@ -162,4 +162,7 @@ I tried the harder challenge but it had some very sharp curves, result was not v
 
 The pipeline works well for the simple and hard project video, but not so well on harder project video, the sharp curves in it make the task difficult. 
 
+To make it more robust We need an algorithm which can detect edges/lanes even at sharp angles. McCall, J. C., & Trivedi, M. M. (2006) in there paper [Video-based lane estimation and tracking for driver assistance: survey, system, and evaluation.](http://escholarship.org/uc/item/1bg5f8qd) proposed Steerable filters, we can try them.
+Instead of straight line detection we can have a polynomial of second degree fit for lane detection.
+
 
